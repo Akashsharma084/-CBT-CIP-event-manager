@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Listing Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <img src="WhatsApp Image 2024-09-12 at 4.10.51 PM.jpeg"></img>
+        <h1>Events Near You💫</h1>
+        <p>place where you find your true feel!</p>
+    </header>
+    <a href="#Create a New Event"><button class="btn2">create event</button></a>
+    <a href="#Upcoming Events" ><button class="btn2">Upcoming Events</button></a>
+    <a href="#about" ><button class="btn2">about</button></a>
+    
+
+    <section id="create-event">
+        <h2 id="Create a New Event">Create a New Event</h2>
+        <form id="event-form" class="ev">
+            <label for="event-name">Event Name:</label>
+            <input type="text" id="event-name" name="event-name" required>
+
+            <label for="event-date">Event Date:</label>
+            <input type="date" id="event-date" name="event-date" required>
+
+            <label for="event-location">Event Location:</label>
+            <input type="text" id="event-location" name="event-location" required>
+            <button type="submit" class="btn1">submit here</button>
+        </form>
+    </section>
+
+    <section id="events-list">
+        <h2 id="Upcoming Events">Upcoming Events</h2>
+        <div id="events-container" class="q">
+            <!-- Dynamic list of events will be displayed here -->
+        </div>
+    </section>
+        <div id="about">
+            <h2>about</h2>
+            <div id="events-container">Welcome to event manager system, the ultimate platform for creating, managing, and showcasing upcoming events with ease. Whether you’re organizing a corporate conference, a community gathering, or a private celebration, our website provides the tools you need to plan and promote your events effortlessly.
+     </div>
+        </div>
+
+<footer>copyright&copy;This website created by Akash sharma with love💕💕</footer>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
